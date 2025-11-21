@@ -19,7 +19,7 @@ import com.example.springboot.service.HospitalService;
 @RequestMapping("/Hospital")
 public class HospitalController 
 {
-	
+	//Dependency injection
 	@Autowired
 	private HospitalService hospService;
 	

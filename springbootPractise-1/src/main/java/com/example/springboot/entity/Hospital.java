@@ -11,6 +11,7 @@ import jakarta.persistence.Table;
 //@Table(name="Hospital_Details")
 public class Hospital 
 {
+	//Feilds Genaration
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="P_Number")

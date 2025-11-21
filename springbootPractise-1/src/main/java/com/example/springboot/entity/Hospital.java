@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 public class Hospital 
 {
 	//Feilds Genaration
-	//The validations should be done for every feild
+	//The feild validations should be done for every feild
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="P_Number")
